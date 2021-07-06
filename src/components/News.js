@@ -8,7 +8,7 @@ function News(props) {
 
   return (
     <div>
-      <h1 className="head__text">News For everything 👋</h1>
+      <h1 className="head__text">Let's aggregate some news ! 👋</h1>
       <div className="all__news">
         {data
           ? data.articles.map((news) => (
